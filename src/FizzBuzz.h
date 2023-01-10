@@ -1,3 +1,3 @@
 #pragma once
 
-void placeholder() {}
+int placeholder_delete_me();

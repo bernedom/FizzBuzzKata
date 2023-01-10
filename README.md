@@ -1,5 +1,9 @@
 # FizzBuzzKata
-FizzBuzz Coding Kata in C++ using CMake and [Catch2](https://github.com/catchorg/Catch2) as test runner
+FizzBuzz Coding Kata in C++ using CMake and [Catch2](https://github.com/catchorg/Catch2) as a test runner. 
+
+For running in Visual Studio Code I suggest to use the following extensions: 
+* [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) extension.
+* [Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer) and the [CMake Test Explorer](https://marketplace.visualstudio.com/items?itemName=fredericbonnet.cmake-test-adapter)
 
 (See below for building and running the tests.)
 
@@ -82,8 +86,3 @@ or
 ```bash
 cmake --build ./build --target test
 ```
-
-
-
-
-

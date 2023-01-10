@@ -17,11 +17,10 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(Catch2)
 include(Catch)
 
-add_executable(FizzBuzzKata src/FizzBuzz.cpp)
+add_executable(FizzBuzzKata src/main.cpp src/FizzBuzz.cpp)
 
-add_executable(FizzBuzzKataTest test/FizzBuzzTest.cpp)
+add_executable(FizzBuzzKataTest test/FizzBuzzTest.cpp src/FizzBuzz.cpp)
 target_include_directories(FizzBuzzKataTest PRIVATE src)
 target_link_libraries(FizzBuzzKataTest PRIVATE Catch2::Catch2WithMain)
 
-# add_test(FizzBuzzKataTest FizzBuzzKataTest)
 catch_discover_tests(FizzBuzzKataTest)
