@@ -55,9 +55,6 @@ Tackle these once you completed Round 1
 * "Bong" should be printed before "Bang" and "Buzz" but after "Fizz" except for "FizzBuzz" and "FizzBuzzBang" where it goes at the end
 * When passing 0 the program should exit with a non-zero exit code
 
-
-# Requirements
-
 ## Building & Running the Tests
 
 ### Building
