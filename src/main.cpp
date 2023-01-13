@@ -3,6 +3,10 @@
 #include <iostream>
 
 int main() {
-  std::cout << "Welcome to FizzBuzz!\n";
-  placeholder_delete_me();
+
+  for (int i = 1; i <= 100; i++) {
+    std::cout << fizzBuzz(i) << std::endl;
+  }
+
+  return 0;
 }

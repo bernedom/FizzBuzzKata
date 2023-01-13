@@ -1,3 +1,5 @@
 #pragma once
 
-int placeholder_delete_me();
+#include <string>
+
+std::string fizzBuzz(int number);
